@@ -22,7 +22,7 @@ public class FlashText extends Application {
                 try {
                     while (true) {
                         if (lblText.getText().trim().length() == 0) {
-                            text = "fuck urself :P";
+                            text = "hallue :P";
                             // Run from JavaFX GUI @Override
                             Platform.runLater(new Runnable() {
                                 public void run() {
